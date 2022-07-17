@@ -1,1 +1,1 @@
-# InnerPeas.github.io
+# .github.io
