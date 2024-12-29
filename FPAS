@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Xiaofei Shi</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-104083228-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Xiaofei Shi</div>
+<div class="menu-item"><a href="index.html" >Home</a></div>
+<div class="menu-item"><a href="research.html" >Research</a></div>
+<div class="menu-item"><a href="teaching.html" class="current">Teaching</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>  Financial Principles for Actuarial Sciences II</h1>
+</div>
+
+<!-- <div class="infoblock">
+<div class="blocktitle">Students and Visitors</div>
+<div class="blockcontent">
+<p>My current focus is on theoretical foundations of deep learning, representation learning and reinforcement learning.<br />
+I am looking for PhD students starting from Fall 2022.<br />
+I am happy to host (remote) undergradaute / graduate visitors.<br />
+If you want to work with me, please feel free to send me an email with your CV.</p>
+</div></div> -->
+<!-- <br/><br/>
+<a href="ASM/CV_XS.pdf">Full CV</a> (updated Aug. 2021).
+ -->
+ <h3>ACT370, Winter 2025</h3>
+Monday 10:00am-1:00pm, SU<br/>
+<br/>
+<br/>
+
+<strong>Instructor</strong>: <a href="index.html">Xiaofei Shi</a>  xf.shi[at]utoronto(dot)ca <br/>
+<strong>TAs</strong>: <a href="">Sophia Chan</a> ianweng.chan[at]mail(dot)utoronto(dot)ca<ul>
+                      <a href="https://www.emmakroell.ca/about/">Emma Kroell </a>emma.kroell[at]mail(dot)utoronto(dot)ca</ul>
+
+<br/>
+  
+<strong>Office Hours</strong>: TBD
+
+<strong>Course Description</strong>: The course covers financial derivatives, their pricing and hedging.
+The course is composed of three parts, the first is an overview / review of financial instruments, such as bonds, stocks, and their forwards, futures, and options. The second part is devoted to pricing of
+financial instruments in discrete time using the Binomial asset pricing models. The third
+part covers pricing of financial instrument in continuous time using the Black-Scholes formula.
+
+<li> Introduction to pricing financial instruments (forwards, future, option pricing, no
+arbitrage)</ul>
+
+<li> Binomial asset pricing model (replicating portfolios, risk neutral pricing, multi-period
+Binomial model)</ul>
+
+<li> Black-Scholes Model (Brownian Motion, Black-Scholes formula, Greeks)</ul>
+
+
+<br/>
+<strong>Course Prerequisites</strong>: 
+ACT240H1 (minimum 63%); ACT245H1 (minimum 63%); ACT247H1
+(minimum 63%).
+<br/>
+
+<strong>Course Corequisites</strong>: : STA257H1; MAT237Y1/MAT257Y1.
+<br/>
+
+<strong>Textbook</strong>: <a href="https://www.amazon.ca/Stochastic-Calculus-Finance-Binomial-Pricing/dp/0387249680">Stochastic Calculus for Finance I: The Binomial Asset Pricing</a>, Steven Shreve.
+<br/>
+
+
+
+
+<br/>
+<strong>Homework</strong>: 
+
+  There will be five homework assignments, approximately evenly spaced throughout the semester. The homework will be 
+  posted on <a href="https://courseworks2.columbia.edu">CourseWork</a>. We highly recommend using <a href="https://piazza.com/class/kswf2c80ejx69v">Piazza</a> 
+  for discussion. We will use  <a href="https://courseworks2.columbia.edu">CourseWork</a> for submitting and grading. 
+  Homeworks submitted after the deadline will not be considered, so please plan in advance. In the case of an emergency (sudden sickness, family problems, etc.), 
+  a reasonable extension will be assigned. But we emphasize that this is reserved for true emergencies.
+<br/>
+
+<br/>
+<strong>Project</strong>: 
+  There will be a class project. You need to finish the project on your own. 
+<!--   Further details can be found <a href="">here</a>. -->
+<br/>
+
+<br/>
+<strong>Evaluation</strong>: 
+50% for 5 Homework + 30% for Project + 20% for Participation.  
+<br/>
+
+<!-- 
+<h3>Schedule</h3>
+<table >
+  <tr>
+    <th>Date</th>
+    <th>Topic</th>
+    <th>Readings</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td>Thu 09/09</td>
+    <td><a href="Materials/ASM/Lecture_01.pdf">Introduction</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr >
+    <td>Tue 09/14</td>
+    <td><a href="Materials/RTutorial1.pdf">R Tutorial 1</a></td>
+    <td><a href="Materials/RTutorial1_InClass.Rmd">Code</a></td>
+    <td>HW1 out</td>
+  </tr>
+  <tr>
+    <td>Thu 09/16</td>
+    <td><a href="Materials/ASM/Lecture_02.pdf">Data Collection</a></td>
+    <td><a href="https://clio.columbia.edu/catalog/2402697">Sampling: Design and Analysis, Chapter 1-2.2</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 09/21</td>
+    <td><a href="Materials/ASM/Lecture_03.pdf">Data Quality</a>  </td>
+    <td><a href="https://dl-acm-org.ezproxy.cul.columbia.edu/doi/10.1145/2702123.2702193">Modeling Ideology and Predicting Policy Change with Social Media</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 09/23</td>
+    <td><a href="Materials/ASM/Lecture_04.pdf">Fairness, Accountability, and Transparency</a></td>
+    <td><a href="Materials/CrowdSourcing.pdf">References for Crowdsourcing</a> </td>
+    <td>HW2 out</td>
+  </tr>
+  <tr>
+    <td>Tue 09/28</td>
+    <td><a href="">HW1 Discussion</a> </td>
+    <td></td>
+    <td>HW1 due </td>
+  </tr>
+  <tr>
+    <td>Thu 09/30</td>
+    <td><a href="Materials/ASM/Lecture_05.pdf">Regression Refresher</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 10/05</td>
+    <td><a href="">R Tutorial 2</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 10/07</td>
+    <td><a href="Materials/ASM/Lecture_06.pdf">Crash in Bayesian Statistics</a> </td>
+    <td></td>
+    <td>HW3 out</td>
+  </tr>
+  <tr>
+    <td>Tue 10/12</td>
+    <td><a href="Materials/ASM/Lecture_07.pdf">Modern Regression</a> </td>
+    <td></td>
+    <td>HW2 due</td>
+  </tr>
+  <tr>
+    <td>Thu 10/14</td>
+    <td><a href="">HW2 Discussion</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 10/19</td>
+    <td><a href="Materials/ASM/Lecture_08.pdf">Naive Bayes</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 10/21</td>
+    <td><a href="Materials/ASM/Lecture_09.pdf">Boosting and Ensemble Methods</a> </td>
+    <td></td>
+    <td>HW4 out</td>
+  </tr>
+  <tr>
+    <td>Tue 10/26</td>
+    <td><a href="">R Tutorial 3</a> </td>
+    <td></td>
+    <td>HW3 due</td>
+  </tr>
+  <tr>
+    <td>Thu 10/28</td>
+    <td><a href="">HW3 Discussion</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 11/02</td>
+    <td> No Class </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 11/04</td>
+    <td><a href="Materials/ASM/Lecture_10.pdf">Time Series Data</a> </td>
+    <td></td>
+    <td>HW5 out</td>
+  </tr>
+  <tr>
+    <td>Tue 11/09</td>
+    <td><a href="Materials/ASM/Lecture_11.pdf">Spatial Data</a> </td>
+    <td></td>
+    <td>HW4 due</td>
+  </tr>
+  <tr>
+    <td>Thu 11/11</td>
+    <td><a href="">HW4 Discussion</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 11/16</td>
+    <td><a href="Materials/ASM/Lecture_12.pdf">Survival Data and the Issue of Censoring</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 11/18</td>
+    <td><a href="Materials/ASM/Lecture_13.pdf">Missing Data</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 11/23</td>
+    <td>No Class </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 11/25</td>
+    <td>No Class</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 11/30</td>
+    <td><a href="">HW5 Discussion</a> </td>
+    <td></td>
+    <td>HW5 due</td>
+  </tr>
+  <tr>
+    <td>Thu 12/02</td>
+    <td><a href="Materials/ASM/Lecture_14.pdf">Causal Inference I</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 12/07</td>
+    <td><a href="Materials/ASM/Lecture_14.pdf">Causal Inference II</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Thu 12/09</td>
+    <td><a href="">Project Session</a> </td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Tue 12/14</td>
+    <td>Study and Exam Days</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Mon 12/20</td>
+    <td>Study and Exam Days</td>
+    <td></td>
+    <td>Final Project Due</td>
+  </tr>            
+</table>
+ -->
+
+<br/>
+<strong>Academic Integrity</strong>:
+Academic integrity is fundamental to learning and scholarship at the University of Toronto. As a result,
+U of T treats cases of cheating and plagiarism very seriously. Please read the University of Toronto’s
+Code of Behaviour on Academic Matters available at <a href="https://www.academicintegrity.utoronto.ca/"> University of Toronto website on Academic Integrity</a>
+
+All suspected cases of academic dishonesty will be investigated following procedures outlined in the Code
+of Behaviour on Academic Matters. If you have questions or concerns about what constitutes appropriate
+academic behaviour or appropriate research and citation methods, please reach out to us. Note that you
+are expected to seek out additional information on academic integrity from other institutional resources, such as
+<a href="https://governingcouncil.utoronto.ca/">The Office of the Governing Council</a>
+<br/>
+
+<br/>
+<strong>Policy on Late Homeworks</strong>
+Late homework and/or project reports will be penalized 10% (in absolute terms) of the maximum grade for every
+part of a 24 hour period that it is late. For example, if you are 36 hours late and your raw grade was 86%,
+then you will receive a 20% penalty and your final grade for that project will be 66%.
+<br/>
+
+<br/>
+<strong>Policy on Missing Exams </strong>
+If you miss the midterm or the final exam for a legitimate reason, then you must contact the instructor within
+24 hours of missing the exam (and preferably pre-emp by sending an email explaining the legitimate
+reason, e.g., illness). If your missed exam is deemed legitimate, then you will have the opportunity to sit
+through a <strong>verbal makeup exam</strong> with the instructor of <strong>no less than 30 minutes</strong>. The content will be the
+same covered by the exams, but the questions asked will differ from the delivered exams.
+<br/>
+
+<br/>
+<strong>Policy on Regrading </strong>
+The course regrading policy exists to correct mistakes, and any request should clearly identify the error (for
+example, a question that was not marked, or a total incorrectly calculated). Requests to correct such
+mistakes must be sent by email to the instructor and the TA, within <strong>48 hrs</strong> after the homework/exam was returned.
+Note that if a student requests for a re-mark, the entire assignment may be re-marked. So, the new grade
+may go up, go down or remain the same.  
+<br/>
+
+<br/>      
+<strong>Policy on Collaboration</strong>:
+You are encouraged to work together on
+the homework. Discussing the homework problems with one another can be a
+valuable learning experience. However, it is a violation of the rules on academic
+integrity to copy another student's solution and submit it as your own. You
+should write up your solutions separately, not referring to a common document.
+Furthermore, you should not submit any work that you do not fully understand.
+You should be able to start with a clean sheet of paper and without notes or
+assistance write out the solution to any homework solution you submit. If you will
+do that with every homework you submit, the similarity between your solutions
+and those of other students will not arouse suspicion. More importantly, you will
+be well prepared for the interviews. You are not permitted to use homework solutions for this course from previous
+years or solutions you find from other sources, including the internet.
+ If multiple students turn in identical solutions, all of them will receive a zero. 
+
+
+People caught cheating generally tell a story about being unable to keep up
+with the material. First of all, remember that you can submit homework late. Secondly, if there is something going on in your life that makes it hard for you to
+keep up, please let me know. That brings me to the following point.
+
+<br/>
+<br/>
+
+<strong>Take Care of Yourself</strong>:
+It is easy for me to say and hard for all
+of us, including me, to do, but taking care of your physical and mental health is
+essential, especially during the COVID-19 pandemic. Life is a marathon, and you need to pace yourself.
+
+Do your best to maintain a healthy lifestyle by eating well, exercising, avoiding
+drugs and alcohol, getting enough sleep and taking some time to relax. This will
+help you achieve your goals and cope with stress.
+
+If you or anyone you know experiences extreme academic stress, difficult life
+events, or feelings of anxiety or depression, I strongly encourage you to seek
+support. Counseling and Psychological Services is here to help 24/7, and everything will be confidential: 
+<a href="https://mentalhealth.utoronto.ca/">https://mentalhealth.utoronto.ca/</a><br/>
+ 
+In addition, consider reaching out to a friend, faculty or family
+member you trust for help getting connected to the support. Keep in mind that
+for serious psychological issues, the first counselor you meet with may not be the
+right one for you, but this does not mean you should give up on counseling. Keep
+looking for someone who can help you. <ul>
+
+<li> If you or someone you know is feeling suicidal or in danger of self-harm, call
+immediately, day or night:<br/>
+
+Non-urgent campus police: 416-978-2323<br/>
+
+<li> If the situation is life threatening, call the police:<br/>
+
+Urgent campus police: 416-978-2222 <br/>
+
+Off campus: 911<br/>
+
+</ul>
+If you have questions about this advice, your coursework, or anything else
+about which I might be helpful, please let me know.
+<br/>
+<br/>
+<strong>Copyright Notice</strong>
+All course materials, including notes, examples, and questions from assessments, are the property of the
+author, instructors, or TA (as relevant) and may not be distributed online or by any other means. You are
+permitted to download session materials for your own academic use, but you should not copy, share, or
+use them for any other purpose without the explicit permission of the instructors.
+<br/>
+</td>
+ 
+</tr> 
+
+</tbody></table>
+<hr /> 
+<div id="footer">
+<div id="footer-text">
+Page generated by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
