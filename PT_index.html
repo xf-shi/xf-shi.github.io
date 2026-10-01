@@ -1,292 +1,222 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>STA2503 Mathematical Finance — Fall 2026 | Xiaofei Shi</title>
-  <style>
-    :root {
-      --text: #1f2937;
-      --muted: #6b7280;
-      --line: #e5e7eb;
-      --accent: #0f4c81;
-      --bg: #ffffff;
-      --soft: #f8fafc;
-      --max: 980px;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background: var(--bg);
-      line-height: 1.6;
-    }
-    .page {
-      max-width: var(--max);
-      margin: 0 auto;
-      padding: 40px 24px 64px;
-    }
-    header {
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 24px;
-      margin-bottom: 32px;
-    }
-    .eyebrow {
-      color: var(--accent);
-      font-weight: 700;
-      letter-spacing: .02em;
-      margin-bottom: 6px;
-    }
-    h1 {
-      margin: 0 0 8px;
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      line-height: 1.1;
-    }
-    h2 {
-      margin-top: 40px;
-      padding-top: 8px;
-      font-size: 1.45rem;
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 8px;
-    }
-    h3 {
-      margin-top: 24px;
-      font-size: 1.05rem;
-    }
-    p { margin: 10px 0 16px; }
-    a { color: var(--accent); }
-    .meta {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px 24px;
-      margin-top: 20px;
-      padding: 18px;
-      background: var(--soft);
-      border: 1px solid var(--line);
-      border-radius: 10px;
-    }
-    .meta div strong {
-      display: block;
-      font-size: .9rem;
-      color: var(--muted);
-      margin-bottom: 2px;
-    }
-    .notice {
-      background: var(--soft);
-      border-left: 4px solid var(--accent);
-      padding: 14px 16px;
-      margin: 18px 0;
-    }
-    ul { padding-left: 1.3rem; }
-    li { margin: 6px 0; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 14px;
-      font-size: .96rem;
-    }
-    th, td {
-      text-align: left;
-      vertical-align: top;
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-    }
-    th {
-      background: var(--soft);
-      font-weight: 700;
-    }
-    .small { color: var(--muted); font-size: .94rem; }
-    footer {
-      margin-top: 52px;
-      padding-top: 20px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-size: .9rem;
-    }
-  </style>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Xiaofei Shi</title>
 </head>
 
 <body>
-  <main class="page">
-    <header>
-      <div class="eyebrow">STA2503 · Fall 2026</div>
-      <h1>Mathematical Finance</h1>
-      <p class="small">Department of Statistical Sciences, University of Toronto</p>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
 
-      <div class="meta">
-        <div><strong>Instructor</strong>Xiaofei Shi</div>
-        <div><strong>Email</strong>xf.shi[at]utoronto(dot)ca</div>
-        <div><strong>Lecture</strong>Wednesday, 2:00–5:00 pm · Room 9016</div>
-        <div><strong>Office Hours</strong>Tuesday, 1:00–2:00 pm</div>
-        <div><strong>TA Session</strong>Monday, 4:00–6:00 pm</div>
-        <div><strong>TA</strong>Radu Alexe Padina</div>
-      </div>
-    </header>
+<td id="layout-menu">
+<div class="menu-category">Xiaofei Shi</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="teaching.html" class="current">Teaching</a></div>
+</td>
 
-    <section>
-      <h2>Course Overview</h2>
-      <p>
-        This course develops the stochastic-analysis tools used in modern mathematical finance,
-        with an emphasis on derivative pricing and hedging.
-      </p>
-      <p>
-        Topics include discrete- and continuous-time models, options and the Greeks,
-        replicating portfolios, interest-rate derivatives, foreign-exchange models,
-        stochastic-volatility models, and related applications.
-      </p>
+<td id="layout-content">
 
-      <div class="notice">
-        <strong>Course delivery.</strong>
-        The course is delivered in person and attendance is expected. Video recordings will not be available.
-        Any change in the mode of delivery will be announced on Quercus.
-      </div>
+<div id="toptitle">
+<h1>Mathematical Finance</h1>
+</div>
 
-      <h3>Prerequisites</h3>
-      <p>Statistics, calculus-based probability, stochastic calculus, ODEs, and PDEs.</p>
+<h3>STA2503, Fall 2026</h3>
 
-      <h3>Enrollment and auditing</h3>
-      <p>
-        Students must be formally enrolled in the course in order to attend.
-        Students who are not enrolled may not attend or audit lectures or tutorials without prior written permission from the instructor.
-        Enrollment or waitlist status does not by itself constitute permission to attend.
-      </p>
-    </section>
+Wednesday 2:00 pm - 5:00 pm, LOCATION: Room 9016; Office Hours: Tuesday 1:00 pm - 2:00 pm <br/>
+<strong>TA Session</strong>: Monday 4:00 pm - 6:00 pm
+<br/><br/>
 
-    <section>
-      <h2>References</h2>
-      <ul>
-        <li>Steven Shreve, <em>Stochastic Calculus for Finance II: Continuous-Time Models</em>.</li>
-        <li>John Hull, <em>Options, Futures, and Other Derivatives</em>.</li>
-      </ul>
-    </section>
+<strong>Instructor</strong>: <a href="index.html">Xiaofei Shi</a>, xf.shi[at]utoronto(dot)ca <br/>
+<strong>TA</strong>: <a href="https://www.linkedin.com/in/radu-alexe-28054121a/?originalSubdomain=ca">Radu Alexe Padina</a>,
+radu.alexepadina[at]mail(dot)utoronto(dot)ca
+<br/><br/>
 
-    <section>
-      <h2>Assessment</h2>
-      <table>
-        <thead>
-          <tr><th>Component</th><th>Weight</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>2 Quizzes</td><td>30%</td></tr>
-          <tr><td>2 Projects</td><td>10%</td></tr>
-          <tr><td>Midterm Exam</td><td>20%</td></tr>
-          <tr><td>Final Exam</td><td>40%</td></tr>
-        </tbody>
-      </table>
+<strong>Course Description</strong>: 
+By the end of this course, students will have a strong understanding of stochastic analysis as it pertains to finance,
+with particular emphasis on derivative pricing and hedging. Topics include, but are not limited to,
+Discrete-Time Models, Continuous-Time Models, Options, the Greeks and Replicating Portfolios,
+Interest Rate Derivatives, Foreign Exchange Models, and Stochastic Volatility Models.
+<br/><br/>
 
-      <h3>Quizzes</h3>
-      <p>
-        There will be two 60-minute quizzes, approximately evenly spaced throughout the semester.
-        Quizzes will be completed in person at the start of Monday tutorial sessions.
-        Specific coverage will be announced in advance and will generally consist of material from the previous three lectures.
-      </p>
+This course is delivered in person and attendance is expected. Video recordings will <strong>NOT</strong> be available.
+Any change in the mode of delivery will be announced on Quercus.
+<br/><br/>
 
-      <h3>Projects</h3>
-      <p>
-        There will be two individual projects. Each project will require students to understand the relevant theory,
-        formulate an approach, implement numerical work in MATLAB, R, or Python, interpret the results,
-        and submit a formal report of no more than 9 pages, excluding references and the contribution sheet.
-      </p>
-      <p>
-        Reports should be written in proper academic English and should include an abstract, introduction,
-        model setup, methodology/theory, and discussion or interpretation of results.
-        Presentation quality, including figures and tables, will form part of the assessment.
-      </p>
+<strong>Enrollment and Auditing</strong>: 
+Students must be formally enrolled in the course in order to attend.
+Students who are not enrolled may not attend or audit lectures or tutorials without prior written permission from the instructor.
+Enrollment or waitlist status does not by itself constitute permission to attend.
+<br/><br/>
 
-      <h3>Midterm Exam</h3>
-      <p>
-        A single 3-hour, in-class, closed-book midterm exam is tentatively scheduled for October 14, 2026.
-      </p>
+<strong>Course Prerequisites</strong>:
+Statistics, calculus-based Probability, Stochastic Calculus, ODE, PDE.
+<br/><br/>
 
-      <h3>Final Exam</h3>
-      <p>
-        A single 4-hour, in-class, closed-book final exam is tentatively scheduled for December 9, 2026.
-        The final exam is cumulative.
-      </p>
-    </section>
+<strong>Textbook</strong>:
+<ul>
+<li>Steven Shreve, <i>Stochastic Calculus for Finance II: Continuous-Time Models</i>.</li>
+<li>John Hull, <i>Options, Futures and Other Derivatives</i>.</li>
+</ul>
 
-    <section>
-      <h2>Tentative Schedule</h2>
-      <table>
-        <thead>
-          <tr><th>Date</th><th>Topic</th><th>Notes</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Sep 9</td><td>Arbitrage and Probability Measures — Single-Period Models</td><td></td></tr>
-          <tr><td>Sep 16</td><td>Arbitrage and Probability Measures — Multi-Period Models</td><td></td></tr>
-          <tr><td>Sep 23</td><td>Continuous-Time Models: Itô's Formula</td><td>Quiz 1: Monday, Sep 21</td></tr>
-          <tr><td>Sep 30</td><td>Girsanov's Theorem and FTAP</td><td></td></tr>
-          <tr><td>Oct 7</td><td>European Call Options, the Greeks, and Hedging</td><td>Project 1 due Friday, Oct 9</td></tr>
-          <tr><td>Oct 14</td><td>Midterm Exam</td><td></td></tr>
-          <tr><td>Oct 21</td><td>Feynman–Kac Formula and Black–Scholes PDE</td><td></td></tr>
-          <tr><td>Oct 28</td><td>Forward and Futures Contracts</td><td></td></tr>
-          <tr><td>Nov 4</td><td>Stochastic Volatility Models</td><td>Project 2 due Friday, Nov 6</td></tr>
-          <tr><td>Nov 11</td><td>Stochastic Interest-Rate Models, Bond Options</td><td></td></tr>
-          <tr><td>Nov 18</td><td>Change of Numeraire and Foreign-Exchange Models</td><td></td></tr>
-          <tr><td>Nov 25</td><td>American Options</td><td>Quiz 2: Monday, Nov 23</td></tr>
-          <tr><td>Dec 2</td><td>Review Session</td><td></td></tr>
-          <tr><td>Dec 9</td><td>Final Exam</td><td></td></tr>
-        </tbody>
-      </table>
-    </section>
+<strong>Evaluation</strong>:
+30% for 2 Quizzes + 10% for 2 Projects + 20% for Midterm Exam + 40% for Final Exam.
+<br/><br/>
 
-    <section>
-      <h2>Course Policies</h2>
+<strong>Quizzes (30%)</strong>:
+There will be <strong>2 quizzes of 60 minutes</strong> each, approximately evenly spaced throughout the semester.
+Each quiz will be completed in person at the start of the Monday tutorial session.
+The specific content being assessed will be announced ahead of time, but will generally consist of material from the previous three lectures.
+<br/><br/>
 
-      <h3>Late Project Reports</h3>
-      <p>
-        Late homework and project reports will be penalized by 10 percentage points of the maximum grade
-        for each started 24-hour period that the submission is late.
-      </p>
+<strong>Projects (10%)</strong>:
+There will be <strong>2 individual projects</strong>.
+Students will be expected to understand the relevant theory, formulate an approach to the problem,
+implement numerical work in Matlab, R, or Python, interpret the results, and submit a formal report within 9 pages
+(excluding references and the contribution sheet).
+Reports should be written in proper academic English and should contain an abstract, introduction, model setup,
+methodology/theory, and discussion/interpretation of results.
+The quality of presentation, including figures and tables, will form part of the assessment.
+<br/><br/>
 
-      <h3>Missed Quizzes and Exams</h3>
-      <p>
-        If you miss a quiz or exam for a legitimate reason, you must contact the instructor within 24 hours
-        of the missed assessment and, whenever possible, in advance.
-      </p>
-      <p>
-        If the absence is accepted as legitimate, the instructor may arrange a verbal makeup assessment
-        of no more than one hour. The makeup will assess the same course material but will use different questions.
-      </p>
+<strong>Midterm Exam (20%)</strong>:
+There will be <strong>a single 3-hour in-class closed-book midterm exam</strong>, tentatively scheduled on Oct 14, 2026.
+<br/><br/>
 
-      <h3>Regrading</h3>
-      <p>
-        Regrading is intended to correct marking or calculation errors. Requests must clearly identify the specific issue
-        and must be sent by email to both the instructor and the TA within 48 hours after the work is returned.
-        If a remark is requested, the entire submission may be re-evaluated and the final grade may increase, decrease, or remain unchanged.
-      </p>
+<strong>Final Exam (40%)</strong>:
+There will be <strong>a single 4-hour in-class closed-book final exam</strong>, tentatively scheduled on Dec 9, 2026.
+The final exam will cover the whole course.
+<br/><br/>
 
-      <h3>Collaboration</h3>
-      <p>
-        Discussion of homework with classmates is encouraged, but submitted work must be written independently.
-        Students may not copy another student's solution, use solutions from previous years, or use solutions obtained from external sources.
-      </p>
+<strong>Tentative Schedule</strong>
+<table>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Note</th>
+</tr>
+<tr>
+<td>09/09</td>
+<td style="text-align:left;">Arbitrage and Probability Measures – Single-period Models</td>
+<td></td>
+</tr>
+<tr>
+<td>09/16</td>
+<td style="text-align:left;">Arbitrage and Probability Measures – Multi-period Models</td>
+<td></td>
+</tr>
+<tr>
+<td>09/23</td>
+<td style="text-align:left;">Continuous Time Models: Ito's Formula</td>
+<td>Quiz 1, Monday (9/21) TA Session</td>
+</tr>
+<tr>
+<td>09/30</td>
+<td style="text-align:left;">Girsanov's Theorem and FTAP</td>
+<td></td>
+</tr>
+<tr>
+<td>10/07</td>
+<td style="text-align:left;">European Call Options, the Greeks, and Hedging</td>
+<td>Project 1 due Friday 10/09</td>
+</tr>
+<tr>
+<td>10/14</td>
+<td style="text-align:left;">Midterm Exam</td>
+<td></td>
+</tr>
+<tr>
+<td>10/21</td>
+<td style="text-align:left;">Feynman-Kac Formula and Black-Scholes PDE</td>
+<td></td>
+</tr>
+<tr>
+<td>10/28</td>
+<td style="text-align:left;">Forward and Futures Contracts</td>
+<td></td>
+</tr>
+<tr>
+<td>11/04</td>
+<td style="text-align:left;">Stochastic Volatility Models</td>
+<td>Project 2 due Friday 11/06</td>
+</tr>
+<tr>
+<td>11/11</td>
+<td style="text-align:left;">Stochastic Interest Rate Models, Bond Options</td>
+<td></td>
+</tr>
+<tr>
+<td>11/18</td>
+<td style="text-align:left;">Change of Numeraire and Foreign Exchange Models</td>
+<td></td>
+</tr>
+<tr>
+<td>11/25</td>
+<td style="text-align:left;">American Options</td>
+<td>Quiz 2, Monday (11/23) TA Session</td>
+</tr>
+<tr>
+<td>12/02</td>
+<td style="text-align:left;">Review Session</td>
+<td></td>
+</tr>
+<tr>
+<td>12/09</td>
+<td style="text-align:left;">Final Exam</td>
+<td></td>
+</tr>
+</table>
 
-      <h3>Academic Integrity</h3>
-      <p>
-        Academic integrity is fundamental to learning and scholarship at the University of Toronto.
-        Suspected cases of academic misconduct will be handled under the University's Code of Behaviour on Academic Matters.
-      </p>
+<br/>
 
-      <h3>Copyright</h3>
-      <p>
-        Course materials, including notes, examples, and assessment questions, are the property of their respective authors.
-        Materials may be downloaded for personal academic use but may not be redistributed without explicit permission.
-      </p>
-    </section>
+<strong>Academic Integrity</strong>:
+Academic integrity is fundamental to learning and scholarship at the University of Toronto.
+Suspected cases of academic dishonesty will be investigated following the University's
+Code of Behaviour on Academic Matters.
+<br/><br/>
 
-    <section>
-      <h2>Wellbeing and Support</h2>
-      <p>
-        Students experiencing academic or personal difficulties are encouraged to seek appropriate support early.
-        University resources are available through U of T Student Mental Health services and other campus support offices.
-      </p>
-    </section>
+<strong>Policy on Late Project Reports</strong>:
+Late homework and/or project reports will be penalized 10% (in absolute terms) of the maximum grade
+for every part of a 24-hour period that the submission is late.
+<br/><br/>
 
-    <footer>
-      Xiaofei Shi · Department of Statistical Sciences · University of Toronto
-    </footer>
-  </main>
+<strong>Policy on Missing Quizzes/Exams</strong>:
+If you miss a quiz or exam for a legitimate reason, you must contact the instructor within 24 hours of the missed assessment,
+and preferably in advance.
+If the absence is deemed legitimate, the instructor may arrange a <strong>verbal makeup exam</strong> of no more than one hour.
+The makeup will assess the same material, but the questions will differ from those used in the original assessment.
+<br/><br/>
+
+<strong>Policy on Regrading</strong>:
+The regrading policy exists to correct marking or calculation errors.
+Requests must clearly identify the specific issue and must be sent by email to both the instructor and the TA
+within <strong>48 hours</strong> after the work is returned.
+If a remark is requested, the entire submission may be re-marked, and the final grade may increase, decrease, or remain unchanged.
+<br/><br/>
+
+<strong>Policy on Collaboration</strong>:
+You are encouraged to discuss homework with classmates, but submitted work must be written independently.
+You may not copy another student's solution, use solutions from previous years, or rely on solutions obtained from external sources.
+<br/><br/>
+
+<strong>Copyright Notice</strong>:
+All course materials, including notes, examples, and assessment questions, are the property of their respective authors.
+Materials may be downloaded for personal academic use, but may not be redistributed without explicit permission.
+<br/><br/>
+
+<hr/>
+<div id="footer">
+<div id="footer-text">
+Page generated by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+
+</td>
+</tr>
+</table>
 </body>
 </html>
